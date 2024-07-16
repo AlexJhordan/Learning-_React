@@ -1,7 +1,12 @@
+
+import styles from './Frase.module.css'
+
+
 function Frase(){
-    return(
-     <div>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas aperiam nam fugiat quo dicta consequatur laborum, voluptatum possimus eius blanditiis.</p>
+    console.log(styles);
+    return (
+     <div className={styles.fraseContainer}>
+        <p className={styles.fraseContent} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas aperiam nam fugiat quo dicta consequatur laborum, voluptatum possimus eius blanditiis.</p>
      </div>   
     )
 }
