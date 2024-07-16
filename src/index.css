@@ -6,6 +6,7 @@
 }
 body{
   padding: 0 1%;
+  background-color: rgb(194, 214, 255);
 }
 div{
   display: flex;

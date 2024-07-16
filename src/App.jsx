@@ -3,6 +3,7 @@ import HelloWorld from './components/HelloWorld'
 import SayMyName from './components/SayMyName'
 import Pessoa from './components/Pessoa'
 import Frase from './components/Frase'
+import Lista from './components/Lista'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         local="Brasil"
         link="https://placehold.co/200"
       />
+      <Lista/>
     </div>
   );
 }
