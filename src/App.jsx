@@ -1,11 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import HelloWorld from './components/HelloWorld'
+import SayMyName from './components/SayMyName'
+import Pessoa from './components/Pessoa'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Olá React</h1>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit accusantium quibusdam inventore sit nesciunt corrupti assumenda est odit itaque ipsa? Nulla aliquid fugiat sapiente at! Excepturi expedita quis nihil perferendis.</p>
+    <div>
+      <HelloWorld/>
+      <SayMyName nome="Alex"/>
+      <h4>Suas informações...</h4>
+      <Pessoa 
+        nome="Alex" 
+        idade="20" 
+        trabalho="Dev Front End"
+        local="Brasil"
+        link="https://placehold.co/200"
+      />
     </div>
   );
 }
